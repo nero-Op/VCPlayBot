@@ -13,8 +13,8 @@ async def start_(client: Client, message: Message):
     await message.reply_text(
         f"""<b>Hi {message.from_user.first_name}!
 \nI can play music in your group's voice chat
-Maintained by @HEROGAMERS1 ❤
-\nTo add in your group contact us at @AwesomeSupport.
+Maintained by @Rexhacks ❤
+\nTo add in your group contact us at @Crazychatter8.
 \nHit /help list of available commands.
  </b>""",
       
@@ -23,18 +23,18 @@ Maintained by @HEROGAMERS1 ❤
             [
                 [
                     InlineKeyboardButton(
-                        "🌍 Music World", url="https://t.me/GIRLS_AND_BOYS_CHATTING",
+                        "🌍 Music World", url="https://t.me/Crazychatter8",
                     )
                 ],
                 [
                     InlineKeyboardButton(
-                        "💬 Group", url="https://t.me/AwesomeSupport"
+                        "💬 Group", url="https://t.me/Crazychatter8"
                     ),
                     InlineKeyboardButton(
-                        "🔊 Channel", url="https://t.me/LaylaList"
+                        "🔊 Channel", url="https://t.me/rexhacksonyt"
                     ),
                     InlineKeyboardButton(
-                        "💾 Source code", url="https://github.com/QueenArzoo/VCPlayBot"
+                        "💾 Source code", url="https://github.com/nero-Op"
                     )
                 ],
                 [
@@ -58,10 +58,10 @@ async def start(client: Client, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                        "🔊 Channel", url="https://t.me/LaylaList"
+                        "🔊 Channel", url="https://t.me/rexhacksonyt"
                     ),
                     InlineKeyboardButton(
-                        "💬 Group", url="https://t.me/AwesomeSupport"
+                        "💬 Group", url="https://t.me/Crazychatter8"
                     )
                 ],    
                 [    
@@ -107,10 +107,10 @@ async def help(client: Client, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                        "🔊 Channel", url="https://t.me/LaylaList"
+                        "🔊 Channel", url="https://t.me/rexhacksonyt"
                     ),
                     InlineKeyboardButton(
-                        "💬 Group", url="https://t.me/AwesomeSupport"
+                        "💬 Group", url="https://t.me/Crazychatter8"
                     )
                 ]
             ]
